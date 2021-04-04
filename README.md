@@ -2,26 +2,18 @@
 # Lab 5-401 course basic-auth
 
 ## links:
-- [heroku link](https:/server-api-2.herokuapp.com/)
+- [heroku link](https://basic-auth-faten.herokuapp.com/)
 
-- [Github actions link](https://github.com/Fatensamman/api-server/actions)
+- [Github actions link](https://github.com/Fatensamman/basic-auth/actions)
 
-- [pull request link](https:/github.com/Fatensamman/api-server/pull/1)
+- [pull request link](https://github.com/Fatensamman/basic-auth/pull/1)
 
 ## End Points
-#### clothes api
--  create clothes data route on post *https://server-api-2.herokuapp.com/api/v1/clothes/*
--  update clothes data route on put *https://server-api-2.herokuapp.com/api/v1/clothes/<id>*
--  saved clothes data route on get *https://server-api-2.herokuapp.com/api/v1/clothes/*
--  one recorded clothes data route on get *https://server-api-2.herokuapp.com/api/v1/clothes/<id>*
--  delete one recorded clothes data route on delete *https://server-api-2.herokuapp.com/api/v1/clothes/<id>*
+#### sign up
+-  https://basic-auth-faten.herokuapp.com/signup/
 
-#### food api
-- create food data route on post *https://server-api-2.herokuapp.com/api/v1/food/*
--  update food data route on put *https://server-api-2.herokuapp.com/api/v1/food/<id>*
--  saved food data route on get *https://server-api-2.herokuapp.com/api/v1/food/*
--  one recorded food data route on get *https://server-api-2.herokuapp.com/api/v1/food/<id>*
--  delete one recorded food data route on delete *https://server-api-2.herokuapp.com/api/v1/food/<id>*
+#### sign in
+- https://basic-auth-faten.herokuapp.com/signin/
 
 
 ## setup  environment
@@ -33,15 +25,14 @@
 - create files tree
 
 ### Test
-- test 404 status  on a bad route
-- The correct status codes and returned data for each REST route
-     Create a record using POST
-     Read a list of records using GET
-     Read a record using GET
-     Update a record using PUT
-     Destroy a record using DELETE
+- test 404 status  on a undefined route
+- test 500 status 
+- test sign up
+- test sign in
+     
  using `npm test `
 
 
  ## Documentation:
- ![UML](3.PNG)
+ colaborate with Haneen khasawneh
+ ![UML](4.PNG)
