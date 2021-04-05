@@ -20,8 +20,8 @@
 
 ### Install
 - initialization using  `npm inint -y`
-- install libraries like express dotenv cors morgan uuid
-- install devDependencies like jest supertest eslint
+- install libraries like express dotenv cors morgan mongo bcrypt base64
+- install devDependencies like jest supertest eslint @code-fellows/supergoose
 - create files tree
 
 ### Test
